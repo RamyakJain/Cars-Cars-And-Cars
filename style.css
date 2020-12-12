@@ -1,0 +1,40 @@
+.note{
+    font-size: 15px;
+}
+#answer_p{
+    font-size: 20px;
+    background-color: aqua;
+    background: aqua;
+}
+.heading{
+    font-size: 25px !important;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-bottom: 25px;
+}
+@keyframes example{
+   from{box-shadow: 10px 10px 10px red;}
+   to{box-shadow: 10px 10px 10px yellow;}
+}
+body{
+font-family: 'Nerko One', cursive;
+
+}
+.button:hover{
+    background: pink;
+    color: black;
+}
+div{
+    float: none;
+
+}
+#camera, #result{
+    border: 10px 10px 10px solid blue;
+    width: 350;
+    height: 300;
+}
+.info{
+    margin-top: 50px;
+    margin-left: 150px;
+}
